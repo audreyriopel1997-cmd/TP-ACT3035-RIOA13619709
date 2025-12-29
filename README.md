@@ -28,6 +28,11 @@ Toujours comme en classe, j'ai laissé la grandeur de l'échantillon à 80% puis
 la longueur de mes données d'entrainement est de 612, ce qui correspond à 80% de 765 et la longueur de mes données test est de 153 correspondant à 20% de 765.
 
 Étape 3 : Analyse exploratoire des données
+Voici l'analyse des mesures de tendances centrales de 2025;
+Pour l'années, il y a eu au total 3 310 000$ d'amende, l'amende minimale est de 250$ et au maximum de 10 000$. En moyenne, l'amende est de 4326.80$
+J'ai recherché sur internet la librarie qu'il me failait pour connaitre le montant de l'amende le plus souvent donné au contrevenant. 
+J'ai donc installé la librairie DescTools pour utiliser connaitre le mode qui est de 5 000$.
+
 
 
 
