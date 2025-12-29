@@ -18,6 +18,12 @@ Afin de commencer mon analyse du document, j'ai utilisé la fonction colnames po
 Ce qui ressort le plus du summary c'est qu'il y a 765 contrevenants en 2025 et concernant les amendes, le minimum est de 250$, le maximum est de 10 000$ et la moyenne est de 4 327$.
 J'ai choisi de garder, la date de saisie, contrevenant, personne_physique, municipalité1 (puisque municipalité2 ce n'est pas au QC), amende et la date du manquement.
 Pour faire cette nouvelle table, j'ai du télécharger la bibliothèque tidyverse pour utiliser la fonction sélect.
+Ensuite, avec la fonction arrange, j'ai choisi de trier en ordre croissant pour date de saisie et ensuite par personne physique.
+
+Pour la séparation en ensemble de test et d'entrainement, j'ai fait comme vu en classe :
+Pour x, j'ai selectionné tout dans la table sauf, amende.
+Pour y, j'ai selectionné seulement amende dans ma table.
+Puisque j'ai 765 lignes dans ma table, j'ai ajouté n = 765
 
 
 
