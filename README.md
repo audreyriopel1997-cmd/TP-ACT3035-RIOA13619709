@@ -15,4 +15,9 @@ Une fois téléchargé, je l'ai renommé "Registre sanction" et enregistré sur 
 J'ai utilisé read.csv() pour accéder au document sur R que j'ai nommé sanctions.
 
 Afin de commencer mon analyse du document, j'ai utilisé la fonction colnames pour connaitre les types de colonnes ainsi de summary pour mieux visualisé ce qui peut etre utilisé.
+Ce qui ressort le plus du summary c'est qu'il y a 765 contrevenants en 2025 et concernant les amendes, le minimum est de 250$, le maximum est de 10 000$ et la moyenne est de 4 327$.
 J'ai choisi de garder, la date de saisie, contrevenant, personne_physique, municipalité1 (puisque municipalité2 ce n'est pas au QC), amende et la date du manquement.
+Pour faire cette nouvelle table, j'ai du télécharger la bibliothèque tidyverse pour utiliser la fonction sélect.
+
+
+
