@@ -10,3 +10,9 @@ Ce que je trouve intéressant dans ce document, c'est que je pourrai l'analyser 
 Selon moi, pour un assureur, l'entreprise qui reçoit des amendes sera une entreprise plus risqué à assurer.
 
 Étape 2 : Processus ETL complet
+J'ai ensuite choisi le document le plus recent, donc celui de 2025, jusqu'au 01-12-2025.
+Une fois téléchargé, je l'ai renommé "Registre sanction" et enregistré sur mon bureau.
+J'ai utilisé read.csv() pour accéder au document sur R que j'ai nommé sanctions.
+
+Afin de commencer mon analyse du document, j'ai utilisé la fonction colnames pour connaitre les types de colonnes ainsi de summary pour mieux visualisé ce qui peut etre utilisé.
+J'ai choisi de garder, la date de saisie, contrevenant, personne_physique, municipalité1 (puisque municipalité2 ce n'est pas au QC), amende et la date du manquement.
