@@ -24,6 +24,19 @@ Pour la séparation en ensemble de test et d'entrainement, j'ai fait comme vu en
 Pour x, j'ai selectionné tout dans la table sauf, amende.
 Pour y, j'ai selectionné seulement amende dans ma table.
 Puisque j'ai 765 lignes dans ma table, j'ai ajouté n = 765
+Toujours comme en classe, j'ai laissé la grandeur de l'échantillon à 80% puisque nous n'avons pas ici d'indication sur le pourcentage.
+la longueur de mes données d'entrainement est de 612, ce qui correspond à 80% de 765 et la longueur de mes données test est de 153 correspondant à 20% de 765.
+
+Étape 3 : Analyse exploratoire des données
+
+
+
+
+
+
+
+
+
 
 
 
