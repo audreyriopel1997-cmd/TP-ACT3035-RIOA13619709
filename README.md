@@ -44,6 +44,9 @@ Ce qui en ressort, c'est que les amendes pour les entreprise sont entre 1 000$ e
 Dans mon model, je n'ai qu'une seule variable numérique, comme indiqué ci-haut. Je n'ai d'autres choix en ce moment que de choisir la variable amende comme variable à prédire.
 C'est pourquoi j'ai choisi pour x, tout dans la table sauf, amende et pour y, j'ai selectionné seulement amende.
 D'un point de vue actuarielle, il aurait été bénéfique d'avoir plus d'informations sur les personnes ou bien sur les types d'entreprises afin de mieux séparer en catégories.
+L'bjectif de la modélisation est surtout concernant la sélection des risques.
+Une entreprise ou même une personne qui reçoient plusieurs amendes pourraient avoir des problèmes à s'assurer.
+
 
 
 
