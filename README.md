@@ -33,6 +33,12 @@ Pour l'années, il y a eu au total 3 310 000$ d'amende, l'amende minimale est de
 J'ai recherché sur internet la librarie qu'il me failait pour connaitre le montant de l'amende le plus souvent donné au contrevenant. 
 J'ai donc installé la librairie DescTools pour utiliser connaitre le mode qui est de 5 000$.
 
+Concernant les graphiques, le document csv que j'ai choisi pour mon analyse contient qu'une seule variable numérique. 
+Il est donc impossible de faire le tableau de correlation. Ce qui en fait un problème concernant le choix des données.
+Cependant, j'ai pu analyser deux graphiques différents. Le premier j'ai utilisé Geom_bar afin de demontrer quel type d'amende est le plus frequent ainsi que la pondération de chaque montant d'amende.
+Ce qui en ressort le plus c'est que l'amende la plus fréquente est bien 5000$ comme l'indiquait le mode plus haut, ainsi que le minimum de 250$ et le maximum de 10 000$.
+J'ai aussi utilisé le geom_boxplot afin de comparer le montant des amendes seulement si c'est une personne physique ou une entreprise.
+Ce qui en ressort, c'est que les amendes pour les entreprise sont entre 1 000$ et 10 000$ tandis que pour les personnes physiques c'est entre 250$ et 2 000$ ainsi que quelques 5 000$.
 
 
 
