@@ -25,7 +25,7 @@ Pour x, j'ai selectionné tout dans la table sauf, amende.
 Pour y, j'ai selectionné seulement amende dans ma table.
 Puisque j'ai 765 lignes dans ma table, j'ai ajouté n = 765
 Toujours comme en classe, j'ai laissé la grandeur de l'échantillon à 80% puisque nous n'avons pas ici d'indication sur le pourcentage.
-la longueur de mes données d'entrainement est de 612, ce qui correspond à 80% de 765 et la longueur de mes données test est de 153 correspondant à 20% de 765.
+La longueur de mes données d'entrainement est de 612, ce qui correspond à 80% de 765 et la longueur de mes données test est de 153 correspondant à 20% de 765.
 
 Étape 3 : Analyse exploratoire des données
 Voici l'analyse des mesures de tendances centrales de 2025;
@@ -40,6 +40,10 @@ Ce qui en ressort le plus c'est que l'amende la plus fréquente est bien 5000$ c
 J'ai aussi utilisé le geom_boxplot afin de comparer le montant des amendes seulement si c'est une personne physique ou une entreprise.
 Ce qui en ressort, c'est que les amendes pour les entreprise sont entre 1 000$ et 10 000$ tandis que pour les personnes physiques c'est entre 250$ et 2 000$ ainsi que quelques 5 000$.
 
+Étape 4 : Définition du problème actuariel
+Dans mon model, je n'ai qu'une seule variable numérique, comme indiqué ci-haut. Je n'ai d'autres choix en ce moment que de choisir la variable amende comme variable à prédire.
+C'est pourquoi j'ai choisi pour x, tout dans la table sauf, amende et pour y, j'ai selectionné seulement amende.
+D'un point de vue actuarielle, il aurait été bénéfique d'avoir plus d'informations sur les personnes ou bien sur les types d'entreprises afin de mieux séparer en catégories.
 
 
 
